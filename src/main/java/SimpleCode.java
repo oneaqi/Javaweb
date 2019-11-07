@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletResponse;
  *  * Servlet implementation class SimpleServlet
  *   */
 @WebServlet("/key")
-public class Code extends HttpServlet {
+public class SimpleCode extends HttpServlet {
    private static final long serialVersionUID = 1L;
    @Override
    protected void doGet(HttpServletRequest req, HttpServletResponse resp) 
